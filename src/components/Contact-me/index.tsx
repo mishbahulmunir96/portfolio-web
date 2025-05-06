@@ -41,7 +41,7 @@ const ContactMe = () => {
   });
 
   return (
-    <Container sectionClassName="relative bg-[#34353A] py-12">
+    <Container id="contact" sectionClassName="relative bg-[#34353A] py-12">
       <div className="absolute left-0 top-0 flex h-1 w-full justify-between">
         <div className="w-1/3 rounded-xl bg-[#ECBB67]"></div>
         <div className="w-1/3 rounded-xl bg-[#ECBB67]"></div>

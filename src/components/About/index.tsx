@@ -3,7 +3,7 @@ import Container from "../Container";
 
 const About = () => {
   return (
-    <Container>
+    <Container id="about">
       <h1 className="mb-6 text-5xl font-semibold text-slate-50">About</h1>
       <div className="flex gap-4">
         <div className="relative top-4 h-0.5 w-48 bg-[#ECBB67]"></div>

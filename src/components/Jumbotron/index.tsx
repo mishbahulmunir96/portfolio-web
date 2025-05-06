@@ -7,6 +7,7 @@ import Container from "../Container";
 const Jumbotron = () => {
   return (
     <Container
+      id="home"
       sectionClassName="bg-[#34353A] h-screen pt-24 drop-shadow-2xl"
       innerClassName="relative"
     >

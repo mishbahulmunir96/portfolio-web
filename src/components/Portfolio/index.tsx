@@ -6,7 +6,7 @@ import Container from "../Container";
 
 const Portfolio = () => {
   return (
-    <Container>
+    <Container id="portfolio">
       <h1 className="mb-6 text-center text-5xl font-semibold text-slate-50">
         My Portfolio
       </h1>

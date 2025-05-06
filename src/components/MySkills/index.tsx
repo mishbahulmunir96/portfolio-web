@@ -3,7 +3,7 @@ import Skill from "./components/Skill";
 
 const MySkills = () => {
   return (
-    <Container>
+    <Container id="skills">
       <h1 className="mb-6 text-center text-5xl font-semibold text-slate-50">
         My Skills
       </h1>
