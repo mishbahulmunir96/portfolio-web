@@ -5,7 +5,7 @@ import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <Container innerClassName="relative">
+    <Container id="footer" innerClassName="relative">
       <div className="">
         <div className="absolute -top-28 left-[475px] flex items-center justify-center gap-4 text-3xl text-slate-100">
           <Link

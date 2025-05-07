@@ -3,14 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "export": "next export",
-  "start": "next start",
-  "lint": "next lint",
-  "deploy:zip": "rmdir /s /q out && npm run build && npm run export && powershell Compress-Archive -Path out -DestinationPath out.zip"
-}
-
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@radix-ui/react-menubar": "^1.1.12",
