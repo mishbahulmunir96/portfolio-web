@@ -1,15 +1,27 @@
-import LinkMenu from "./LinkMenu";
-import SearchBar from "./SearchBar";
+"use client";
+
+import { Menu, X } from "lucide-react";
+import { useState } from "react";
+import DekstopMenu from "./DekstopMenu";
+import MobileMenu from "./MobileMenu";
 
 const MenuBar = () => {
+  const [isOpen, setIsOpen] = useState<boolean>(false);
+
+  const toggleMenu = () => setIsOpen(!isOpen);
+
   return (
-    <div className="flex w-[65%] items-center justify-between">
-      <ul className="justiy-between flex gap-10 font-medium text-slate-400">
-        <LinkMenu href="#about">About</LinkMenu>
-        <LinkMenu href="#portfolio">Portfolio</LinkMenu>
-        <LinkMenu href="#contact">Contact</LinkMenu>
-      </ul>
-      <SearchBar />
+    <div className="relative text-slate-400 md:w-[65%]">
+      <div className="flex justify-end md:hidden" onClick={toggleMenu}>
+        {isOpen ? (
+          <X className="text-xl text-white" />
+        ) : (
+          <Menu className="text-xl text-white" />
+        )}
+      </div>
+
+      <DekstopMenu />
+      {isOpen && <MobileMenu />}
     </div>
   );
 };
