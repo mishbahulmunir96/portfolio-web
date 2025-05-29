@@ -15,9 +15,11 @@ const Container: FC<ContainerProps> = ({
   return (
     <section
       id={id}
-      className={`flex h-min w-full items-center justify-center py-24 ${sectionClassName} bg-[#31333b]`}
+      className={`flex h-min w-full items-center justify-center py-12 md:py-24 ${sectionClassName} bg-[#31333b]`}
     >
-      <div className={`mx-24 w-full ${innerClassName}`}>{children}</div>
+      <div className={`mx-8 w-full md:mx-24 ${innerClassName} `}>
+        {children}
+      </div>
     </section>
   );
 };

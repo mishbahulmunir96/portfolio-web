@@ -25,8 +25,8 @@ const Jumbotron = () => {
         Contact Me
       </Button>
       <div className="absolute -bottom-36 right-0 flex justify-end text-2xl text-slate-300">
-        <div className="flex flex-col items-center gap-4">
-          <div className="h-24 w-0.5 bg-[#ECBB67]"></div>
+        <div className="flex items-center gap-4 md:flex-col">
+          <div className="h-0.5 w-48 bg-[#ECBB67] md:h-24 md:w-0.5"></div>
 
           <Link
             href="https://www.linkedin.com/in/mishbahul-munir/"

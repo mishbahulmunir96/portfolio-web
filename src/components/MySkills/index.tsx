@@ -7,7 +7,7 @@ const MySkills = () => {
       <h1 className="mb-6 text-center text-5xl font-semibold text-slate-50">
         My Skills
       </h1>
-      <div className="grid grid-cols-4 gap-6">
+      <div className="grid grid-cols-2 gap-2 md:grid-cols-4 md:gap-6">
         <Skill src="/images/html.png" alt="Html" children="HTML" />
         <Skill src="/images/css.png" alt="CSS" children="CSS" />
         <Skill

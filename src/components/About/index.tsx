@@ -5,9 +5,9 @@ const About = () => {
   return (
     <Container id="about">
       <h1 className="mb-6 text-5xl font-semibold text-slate-50">About</h1>
-      <div className="flex gap-4">
-        <div className="relative top-4 h-0.5 w-48 bg-[#ECBB67]"></div>
-        <p className="text-xl text-slate-200">
+      <div className="flex flex-col gap-4 md:flex-row">
+        <div className="mb-4 h-0.5 w-48 bg-[#ECBB67] md:mb-0 md:mt-2"></div>
+        <p className="text-justify text-xl text-slate-200">
           Hi! I'm a web developer passionate about building responsive and
           efficient web applications using modern technologies like{" "}
           <span className="text-[#ECBB67]">
